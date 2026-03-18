@@ -44,8 +44,8 @@ btnUrlSi.addEventListener('click', () => {
 });
 
 btnUrlNo.addEventListener('click', () => {
-    imagemHero.src = "";
-    imagemHero.style.display = "none"; 
+    imagemHero.src = "https://www.pngall.com/wp-content/uploads/13/Logo-PNG-Photo.png";
+    imagemHero.style.display = "block"; 
 });
 
 botonColor.addEventListener('click', () => {
