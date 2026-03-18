@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-azul-claro {
+    background-color: #2191e1 !important;
+}
+
+.hero {
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    
+
+  background-size: cover; 
+  height: 90vh; 
+  min-height: 500px; }
+
+#tituloPrincipal {
+    transition: color 0.3s ease;
+}
+
+.texto-encendido {
+    color: #cae70f !important; 
+}
+
+.texto-apagado {
+    color: #e70f28 !important; 
+}
+
+img[src=""], img:not([src]) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Seleciona a imagem pelo ID que colocamos no HTML */
+#imgHero {
+    display: none; /* Começa escondida */
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0;
+}
+
+/* Classe auxiliar que o JS vai usar para mostrar a imagem */
+.show-image {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.cuadrado-base {
+    width: 150px;
+    height: 150px;
+    background-color: #dee2e6; /* Color gris inicial */
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Para que el cambio sea suave */
+}
+
+#imgParaOcultar {
+    transition: all 0.5s ease;
+    border: 2px dashed #ccc;
+    padding: 10px;
+}
+
+#parrafoTexto {
+    font-size: 18px; /* Tamaño inicial */
+    transition: font-size 0.5s ease-in-out; /* Animación suave */
+    color: #333;
+}
+
+#resultadoSpan {
+    font-weight: bold;
+    color: #055160;
+    font-style: italic;
+    transition: all 0.3s ease;
+}
+
+#imagenAnimal {
+    transition: transform 0.3s ease;
+    border: 5px solid #f8f9fa;
+}
+
+#imagenAnimal:hover {
+    transform: scale(1.02); /* Un pequeño efecto de aumento al pasar el ratón */
+}
