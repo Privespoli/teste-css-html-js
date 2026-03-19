@@ -9,7 +9,7 @@
 
 .hero {
     background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     
 
   background-size: cover; 
@@ -39,7 +39,7 @@ img[src=""], img:not([src]) {
     max-width: 100%;
     height: auto;
     transition: opacity 0.4s ease-in-out;
-    opacity: 0;
+    
 }
 
 /* Classe auxiliar que o JS vai usar para mostrar a imagem */
